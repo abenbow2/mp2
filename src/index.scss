@@ -1,4 +1,8 @@
 $main-pink: #821252;
+$pale-pink: #ffedf7;
+$neutral-medium: #48404a;
+$cyan: #0084bd;
+$light-cyan: #66bade;
 
 :root {
   --bg: #fff;
@@ -19,6 +23,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Englebert', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #header {
@@ -27,7 +32,45 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 100px;
   font-family: 'Sniglet', Verdana, Geneva, Tahoma, sans-serif;
   color: $main-pink;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+input[type="text"] {
+  width: 60%;
+  border-style: solid;
+  background-color: $pale-pink;
+  height: 48px;
+  font-size: 30px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border-width: 5px;
+  color: $neutral-medium;
+}
+
+#search-bar {
+  border-color: $main-pink;
+}
+
+#header button {
+  display: inline;
+  min-width: 20%;
+  max-width: 30%;
+  height: 48px;
+  margin: 0px 15px;
+  padding: 5px;
+
+  font-size: 30px;
+  font-family: 'Englebert', Verdana, Geneva, Tahoma, sans-serif;
+
+  background-color: $light-cyan;
+  color: aliceblue;
+  
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: $cyan;
 }
