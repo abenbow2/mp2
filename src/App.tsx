@@ -88,16 +88,16 @@ function Details() {
     }
   }
 
-  var prev = parseInt(params.id) - 1;
-  var next = parseInt(params.id) + 1;
+  var prev : number = parseInt(params.id) - 1;
+  var next : number = parseInt(params.id) + 1;
 
   if (params.id >= flavors.length) {
     bean = beansList[0];
-    prev =  parseInt(flavors.length) - 1;
+    prev = flavors.length - 1;
     next = 1;
   } else if (params.id < 0) {
     bean = beansList[beansList.length - 1];
-    prev = parseInt(flavors.length) - 2;
+    prev = flavors.length - 2;
     next = 0;
   }
   else {
