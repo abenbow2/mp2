@@ -6,7 +6,7 @@ import './index.scss'
 import App from './App.tsx'
 
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />

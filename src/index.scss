@@ -55,9 +55,9 @@ input[type="text"] {
   border-color: $main-pink;
 }
 
-#header button {
+#header button, Link, a, .navlink {
   display: inline;
-  min-width: 20%;
+  min-width: 50px;
   max-width: 30%;
   height: 48px;
   margin: 0px 15px;

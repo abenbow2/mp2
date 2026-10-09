@@ -6,6 +6,7 @@ https://react.dev/learn
 https://www.w3schools.com/react/react_router.asp
 https://github.com/remix-run/react-router/issues/8439
 https://v5.reactrouter.com/web/example/basic
+https://stackoverflow.com/questions/74993259/react-router-not-rendering-my-children-elements-inside-my-layout
 
 **Axios**
 https://circleci.com/blog/making-http-requests-with-axios/#c-consent-modal
