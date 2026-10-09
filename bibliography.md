@@ -3,6 +3,7 @@ https://www.w3schools.com/react/default.asp
 https://react.dev/learn
 https://react.dev/learn/rendering-lists
 https://www.digitalocean.com/community/tutorials/react-axios-react
+https://builtin.com/articles/react-search-bar
 
 **Routing**
 https://www.w3schools.com/react/react_router.asp

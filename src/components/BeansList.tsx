@@ -42,6 +42,7 @@ export default class BeansList extends React.Component {
         beansList.push(bean);
       }
     }
+    
     return (
       <div id="galleryWall">
           {beansList.map((bean:any) => (

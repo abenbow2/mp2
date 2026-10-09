@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Root Beer",
+        "color": "brown"
+    },
+    {
+        "id": 2,
+        "name": "Berry Blue",
+        "color": "blue"
+    },
+    {
+        "id": 3,
+        "name": "Blueberry",
+        "color": "blue"
+    },
+    {
+        "id": 4,
+        "name": "Bubble Gum",
+        "color": "pink"
+    },
+    {
+        "id": 5,
+        "name": "Buttered Popcorn",
+        "color": "yellow"
+    },
+    {
+        "id": 6,
+        "name": "Cantaloupe",
+        "color": "orange"
+    },
+    {
+        "id": 7,
+        "name": "Cappucino",
+        "color": "brown"
+    },
+    {
+        "id": 8,
+        "name": "Caramel Corn",
+        "color": "yellow"
+    },
+    {
+        "id": 9,
+        "name": "Chocolate Pudding",
+        "color": "brown"
+    },
+    {
+        "id": 10,
+        "name": "Cinnamon",
+        "color": "red"
+    },
+    {
+        "id": 11,
+        "name": "Coconut",
+        "color": "white"
+    },
+    {
+        "id": 12,
+        "name": "Cotton Candy",
+        "color": "blue"
+    },
+    {
+        "id": 13,
+        "name": "Crushed Pineapple",
+        "color": "yellow"
+    },
+    {
+        "id": 14,
+        "name": "Dr Pepper",
+        "color": "brown"
+    },
+    {
+        "id": 15,
+        "name": "French Vanilla",
+        "color": "white"
+    },
+    {
+        "id": 16,
+        "name": "Green Apple",
+        "color": "green"
+    }
+]

@@ -8,6 +8,8 @@ import {
   Link
 } from "react-router";
 import BeansList from './components/BeansList.js';
+import BeansResults from './components/BeansResults.js';
+import { useState } from 'react';
 
 export type Bean = {
   id: number;
@@ -45,10 +47,18 @@ function Layout() {
   );
 }
 function Search() {
+  const [userInput, setUserInput] = useState("");
+  let inputHandler = (event : any) => {
+    var lowerinput : string = event.target.value.toLowerCase();
+    setUserInput(lowerinput);
+  };
+
   return(
     <div>
-      <input type="text" id="search-bar" placeholder="Search..."></input>
+      <input type="text" id="search-bar" onChange={inputHandler} placeholder="Search..."></input>
       <div id="search-results"></div>
+
+      <BeansResults input={userInput}/>
     </div>
   );
 
