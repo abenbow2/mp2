@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import favicon from './assets/favicon.png'
+// import { useState } from 'react'
+// import favicon from './assets/favicon.png'
 import './App.css'
-import React from "react";
+// import React from "react";
 import { Outlet } from "react-router-dom";
 import {
   BrowserRouter as Router,
