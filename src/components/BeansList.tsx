@@ -39,8 +39,15 @@ export default function BeansList(props : any) {
   var filteredBeans = fullBeansList;
 
   if (props.dietfilter == "kosher") {
-
-  } else {
+    dietFilteredBeans = fullBeansList.filter((bean : any) => {
+      return bean.kosher == "Yes";
+    })
+  } else if (props.dietfilter == "glutenfree") {
+    dietFilteredBeans = fullBeansList.filter((bean : any) => {
+      return bean['gluten-free'] == "Yes";
+    })
+  }
+  else {
     dietFilteredBeans = fullBeansList;
     console.log(dietFilteredBeans);
   }
