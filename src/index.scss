@@ -76,7 +76,10 @@ input[type="text"] {
 }
 
 .gallerySquare {
-  display: block;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   height: 200px;
   width: 200px;
   margin: 10px;
@@ -86,13 +89,21 @@ input[type="text"] {
 }
 
 .searchResult {
-  display: block;
+  display: flex;
   height: 150px;
   width: 60%;
   margin: 10px;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.searchResult img {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #galleryWall {
@@ -103,29 +114,9 @@ input[type="text"] {
   flex-wrap: wrap;
 }
 
-.bean-white {
-  background-color: antiquewhite;
-  color: #48404a;
-}
-
-.bean-blue {
-  background-color: rgb(30, 195, 250);
-  color: #fcfcfc;
-}
-
-.bean-brown {
-  background-color: rgb(59, 31, 31);
-  color: #fcfcfc;
-}
-
-.bean-yellow {
-  background-color: rgb(255, 246, 125);
-  color: #281818;
-}
-
-.bean-pink {
-  background-color: $pale-pink;
-  color: $main-pink;
+.bean-red {
+  background-color: red;
+  color: palegoldenrod;
 }
 
 .bean-orange {
@@ -133,17 +124,48 @@ input[type="text"] {
   color: orangered;
 }
 
+.bean-yellow {
+  background-color: rgb(255, 246, 125);
+  color: #281818;
+}
+
 .bean-green {
   background-color: greenyellow;
   color: green;
 }
 
-.bean-red {
-  background-color: red;
-  color: palegoldenrod;
+.bean-blue {
+  background-color: rgb(30, 195, 250);
+  color: #fcfcfc;
 }
 
-Link {
+.bean-pink {
+  background-color: $pale-pink;
+  color: $main-pink;
+}
+
+.bean-purple {
+  background-color: lavender;
+  color: indigo;
+}
+
+.bean-white {
+  background-color: antiquewhite;
+  color: #48404a;
+}
+
+.bean-brown {
+  background-color: rgb(59, 31, 31);
+  color: #fcfcfc;
+}
+
+.bean-black {
+  background-color: rgb(36, 34, 36);
+  color: #fcfcfc;
+}
+
+
+Link, a {
   color: inherit;
   padding: 10px;
 }
@@ -200,4 +222,50 @@ Link {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sort-search-results, label {
+  min-width: 60%;
+  margin: 10px;
+  font-size: 24px;
+}
+
+select {
+  margin: 10px;
+  font-size: 24px;
+  font-family: 'Englebert', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.beanImage {
+  height: 105px;
+  width: 150px;
+  margin: 10px;
+  display: block;
+}
+
+.beanDetailsImage  {
+  height: 280px;
+  width: 400px;
+  margin: 15px;
+  margin-right: 50px;
+  display: inline-block;
+  align-self: center;
+}
+
+.beanText {
+  padding: 20px;
+}
+
+.beanMainDetails {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

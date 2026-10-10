@@ -4,6 +4,7 @@ https://react.dev/learn
 https://react.dev/learn/rendering-lists
 https://www.digitalocean.com/community/tutorials/react-axios-react
 https://builtin.com/articles/react-search-bar
+https://react.dev/reference/react-dom/components/select
 
 **Routing**
 https://www.w3schools.com/react/react_router.asp
@@ -19,12 +20,16 @@ https://www.geeksforgeeks.org/reactjs/axios-in-react-a-guide-for-beginners/
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_background8
 https://www.w3schools.com/csS/css_font_google.asp
 
-**TypeScript**
+**JavaScript/TypeScript**
 https://www.w3schools.com/typescript/typescript_arrays.php
 https://www.typescriptlang.org/docs/handbook/2/objects.html
+https://www.w3schools.com/jsref/jsref_sort.asp
+https://www.geeksforgeeks.org/javascript/how-to-sort-json-array-in-javascript-by-value/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
 **HTML**
 https://www.w3schools.com/HOWTO/howto_css_searchbar.asp
+https://www.w3schools.com/tags/tag_select.asp
 
 **IMAGES**
 Background: Edited from Alamy

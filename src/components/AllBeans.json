@@ -1,82 +1,261 @@
 [
     {
+        "id": 0,
+        "name": "Champagne",
+        "color": "white",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_1920/public/2026-04/champagne.png.webp?itok=J4c4npp5"
+    },
+    {
         "id": 1,
         "name": "Root Beer",
-        "color": "brown"
+        "color": "brown",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/sps_a-w_rootbeer_sig_2023.png.webp?itok=dhy__bXs"
     },
     {
         "id": 2,
         "name": "Berry Blue",
-        "color": "blue"
+        "color": "blue",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/berryblue.png.webp?itok=LPjVb0Rd"
     },
     {
         "id": 3,
         "name": "Blueberry",
-        "color": "blue"
+        "color": "blue",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/blueberry_sig_2023.png.webp?itok=zcv_h1Cs"
     },
     {
         "id": 4,
         "name": "Bubble Gum",
-        "color": "pink"
+        "color": "pink",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-06/bubble-gum.png.webp?itok=0jQLu9-1"
     },
     {
         "id": 5,
         "name": "Buttered Popcorn",
-        "color": "yellow"
+        "color": "yellow",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/butteredpopcorn_sig_2023.png.webp?itok=O5Lozlva"
     },
     {
         "id": 6,
-        "name": "Cantaloupe",
-        "color": "orange"
+        "name": "Sour Apple",
+        "color": "green",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/sour-apple.png.webp?itok=4Lbf7rd0"
     },
     {
         "id": 7,
         "name": "Cappucino",
-        "color": "brown"
+        "color": "brown",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/cappucino.png.webp?itok=_yiT7gPM"
     },
     {
         "id": 8,
-        "name": "Caramel Corn",
-        "color": "yellow"
+        "name": "Chili Mango",
+        "color": "orange",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/chilimango_sig_2023_0000.png.webp?itok=n3ZEYY9j"
     },
     {
         "id": 9,
         "name": "Chocolate Pudding",
-        "color": "brown"
+        "color": "brown",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/sps_a-w_rootbeer_sig_2023.png.webp?itok=dhy__bXs"
     },
     {
         "id": 10,
         "name": "Cinnamon",
-        "color": "red"
+        "color": "red",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/sizzling-cinnamon.png.webp?itok=TjVPgsZo"
     },
     {
         "id": 11,
         "name": "Coconut",
-        "color": "white"
+        "color": "white",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/coconut_sig_2023_0000.png.webp?itok=zye-7ofF"
     },
     {
         "id": 12,
         "name": "Cotton Candy",
-        "color": "blue"
+        "color": "pink",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/cottoncandy_sig_2023.png.webp?itok=ROqkqfp7"
     },
     {
         "id": 13,
         "name": "Crushed Pineapple",
-        "color": "yellow"
+        "color": "yellow",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/crushed-pineapple.png.webp?itok=5s_kRdgL"
     },
     {
         "id": 14,
         "name": "Dr Pepper",
-        "color": "brown"
+        "color": "brown",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/dr-pepper.png.webp?itok=V9CZmD1I"
     },
     {
         "id": 15,
-        "name": "French Vanilla",
-        "color": "white"
+        "name": "Vanilla Bean",
+        "color": "white",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/vanilla-bean.png.webp?itok=KIcqcX1Z"
     },
     {
         "id": 16,
         "name": "Green Apple",
-        "color": "green"
+        "color": "green",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/sb_greenapple_sig_2025-2.png.webp?itok=FPwAkm3M"
+    },
+    {
+        "id": 17,
+        "name": "Grape Soda",
+        "color": "purple",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/grape-soda.png.webp?itok=jYFAB7bT"
+    },
+    {
+        "id": 18,
+        "name": "Licorice",
+        "color": "black",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_1920/public/2026-04/licorice.png.webp?itok=vIfTNJh4"
+    },
+    {
+        "id": 19,
+        "name": "Lemon",
+        "color": "yellow",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_1920/public/2026-06/lemon.png.webp?itok=7yU7Itl3"
+    },
+    {
+        "id": 20,
+        "name": "Birthday Cake",
+        "color": "white",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/birthdaycake.png.webp?itok=P-GHZUrU"
+    },
+    {
+        "id": 21,
+        "name": "Watermelon",
+        "color": "green",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/watermelon_sig_2023.png.webp?itok=21LhMVxH"
+    },
+    {
+        "id": 22,
+        "name": "Blackberry",
+        "color": "purple",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/wild-blackberry.png.webp?itok=GkJwJEbJ"
+    },
+    {
+        "id": 23,
+        "name": "Sweet Peach",
+        "color": "orange",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/sweet-peach.png.webp?itok=-Gkrg-D5"
+    },
+    {
+        "id": 24,
+        "name": "Very Cherry",
+        "color": "red",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/very-cherry.png.webp?itok=tPpNonJH"
+    },
+    {
+        "id": 25,
+        "name": "Strawberry Banana",
+        "color": "orange",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/strawberry-banana.png.webp?itok=-oF7lFTV"
+    },
+    {
+        "id": 26,
+        "name": "Raspberry",
+        "color": "red",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/raspberry.png.webp?itok=6scEhpiI"
+    },
+    {
+        "id": 27,
+        "name": "Sour Grape",
+        "color": "blue",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/sour-grape.png.webp?itok=JA26N1Ow"
+    },
+    {
+        "id": 28,
+        "name": "Strawberry Cheesecake",
+        "color": "pink",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/strawberry-cheesecake.png.webp?itok=hAENL6t0"
+    },
+    {
+        "id": 29,
+        "name": "Orange",
+        "color": "orange",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-06/sunkist-orange-1.png.webp?itok=5mNyUoHh"
+    },
+    {
+        "id": 30,
+        "name": "Juicy Pear",
+        "color": "green",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/juicy-pear.png.webp?itok=U0V7W68n"
+    },
+    {
+        "id": 31,
+        "name": "Mixed Berry",
+        "color": "purple",
+        "kosher": "Yes",
+        "gluten-free": "No",
+        "url": "https://www.jellybelly.com/sites/default/files/styles/max_768_2x/public/2026-04/mixed-berry.png.webp?itok=OUF2kJW6"
     }
+
+    
+
 ]

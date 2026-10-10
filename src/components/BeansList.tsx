@@ -1,16 +1,17 @@
-import React from 'react';
+// import React from 'react';
 // import axios from 'axios';
-import type {Bean} from '../App.tsx';
+// import type {Bean} from '../App.tsx';
 import {
   Link
 } from "react-router";
+import fullBeansList from "./AllBeans.json";
 
-const beansList : Bean[] = [];
+// const beansList : Bean[] = [];
 
-export default class BeansList extends React.Component {
-  state = {
-    beans: []
-  }
+export default function BeansList(props : any) {
+  // state = {
+  //   beans: []
+  // }
   // API Not working!
   // componentDidMount() {
     
@@ -33,25 +34,36 @@ export default class BeansList extends React.Component {
   //     });
   // }
 
-  render() {
-    const flavors : string[] = ["Root Beer", "Berry Blue", "Blueberry", "Bubble Gum", "Buttered Popcorn", "Cantaloupe", "Cappuccino", "Caramel Corn", "Chocolate Pudding", "Cinnamon", "Coconut", "Cotton Candy", "Crushed Pineapple", "Dr Pepper", "French Vanilla", "Green Apple"];
-    const colors : string[] = ["brown", "blue", "blue", "pink", "yellow", "orange", "brown", "yellow", "brown", "red", "white", "blue", "yellow", "brown", "white", "green"];
-    if (beansList.length < 1) {
-      for (let i = 0; i < colors.length; i++) {
-        let bean : Bean = {id: i, name: flavors[i], color: colors[i]};
-        beansList.push(bean);
-      }
-    }
-    
-    return (
-      <div id="galleryWall">
-          {beansList.map((bean:any) => (
-            <div className={`gallerySquare bean-${bean.color}`}>
-              <Link to={`/details/${bean.id}`} className="galleryItem" key={bean.id}>{bean.name}</Link>
-            </div>
-            
-          ))}
-      </div>
-    )
+  // filter beanslist
+  var dietFilteredBeans = fullBeansList;
+  var filteredBeans = fullBeansList;
+
+  if (props.dietfilter == "kosher") {
+
+  } else {
+    dietFilteredBeans = fullBeansList;
+    console.log(dietFilteredBeans);
   }
+
+  filteredBeans = dietFilteredBeans;
+
+  if (props.colorfilter != null && props.colorfilter != "" && props.colorfilter != "any") {
+    filteredBeans = dietFilteredBeans.filter((bean) => bean.color == props.colorfilter);
+    console.log(filteredBeans);
+    console.log(props.colorfilter);
+  } else {
+    filteredBeans = dietFilteredBeans;
+  }
+
+  return (
+    <div id="galleryWall">
+        {filteredBeans.map((bean:any) => (
+          <div className={`gallerySquare bean-${bean.color}`}  key={bean.id}>
+            <img className="beanImage" src={`${bean.url}`} alt={`${bean.name}`} />
+            <Link to={`/details/${bean.id}`} className="galleryItem">{bean.name}</Link>
+          </div>
+          
+        ))}
+    </div>
+  )
 }
